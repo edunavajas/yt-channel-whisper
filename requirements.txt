@@ -1,0 +1,7 @@
+# Core dependencies
+yt-dlp>=2024.12.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.66.0
