@@ -34,6 +34,20 @@ python3 -m venv .venv
 
 ---
 
+## Uso rápido (un solo comando)
+
+Si solo quieres el resultado final (Markdown por vídeo), esto encadena los tres pasos:
+
+```bash
+CHANNEL_URL="https://www.youtube.com/@TuCanal/videos" \
+SPEACHES_BASE_URL="http://localhost:8000" \
+./build_corpus.sh
+```
+
+Deja los documentos finales en `markdown/`. Más abajo tienes cada paso por separado, por si quieres controlarlos.
+
+---
+
 ## Uso
 
 ### 1. Indexar el canal
