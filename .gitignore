@@ -38,3 +38,6 @@ Desktop.ini
 
 # Generated Markdown output (to_markdown.py)
 markdown/
+
+# Índices generados
+*.jsonl
